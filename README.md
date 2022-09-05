@@ -10,5 +10,27 @@ This project uses Consumer Financial Protection Bureau (CPFB) data that is aggre
 > ### Mortgages 90 or more days delinquent
 > The 90–day delinquency rate is a measure of serious delinquencies. It captures borrowers that have missed three or more payments. This rate measures more severe economic distress. 
 
-## Purpose
-This project uses [*JupyterLab*](https://jupyter.org/install#jupyterlab) for analysis of data to discover trends for mortgages that are deliquent for metro and non-metro regions in the United States of America. 
+## Technologies 
+* Python (Anaconda3) with Vistual Studio as preferred editor
+* [*JupyterLab*](https://jupyter.org/install#jupyterlab) for analysis of data to discover trends for mortgages that are deliquent for metro and non-metro regions in the United States of America. 
+* Interactive [*StreamLit*](https://streamlit.io/) web application that can accept user input in the future.
+
+## How To
+### /mortgage_analysis.py
+This file contains the functions to read the CSV data and return dataframes grouped by various columns.
+
+### /mortgage_stats.ipynb
+This is a Jupyter Notebook with tables and visualizations of the mortgage data.
+
+To run notebook
+```
+jupyter lab mortgage_stats.ipynb
+```
+
+### /mortgage_analysis_webapp.py
+This is a Streamlit page using the same data from the Jupyter Notebook
+
+To run webapp
+```
+streamlit run mortgage_analysis_webapp.py
+```
