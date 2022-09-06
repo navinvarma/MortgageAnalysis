@@ -1,0 +1,27 @@
+{
+  "name": "mortgage-analysis",
+  "version": "1.0.0",
+  "description": "Mortgage Deliquency Analysis using CPFB data",
+  "main": "mortgage_analysis_webapp.py",
+  "scripts": {
+    "test": "streamlit run mortgage_analysis_webapp.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navinvarma/mortgage-analysis.git"
+  },
+  "keywords": [
+    "mortgage",
+    "streamlit",
+    "python",
+    "pandas",
+    "cpfb",
+    "data.gov"
+  ],
+  "author": "Navin Varma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navinvarma/mortgage-analysis/issues"
+  },
+  "homepage": "https://github.com/navinvarma/mortgage-analysis#readme"
+}
