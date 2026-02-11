@@ -17,8 +17,8 @@ def get_yearmonth_cols(dataframe):
 
 # function to group by region
 def get_by_region(dataframe,year_month_cols):
-    return pd.DataFrame(dataframe.groupby('RegionType').mean().round(2)[year_month_cols].mean(axis=1).round(2).sort_values(ascending=False))
+    return pd.DataFrame(dataframe.groupby('RegionType').mean(numeric_only=True).round(2)[year_month_cols].mean(axis=1).round(2).sort_values(ascending=False))
 
 # function to group by region & area name
 def get_by_area(dataframe,year_month_cols):
-    return pd.DataFrame(dataframe.groupby(['RegionType','Name']).mean().round(2)[year_month_cols].mean(axis=1).round(2).sort_values(ascending=False))
+    return pd.DataFrame(dataframe.groupby(['RegionType','Name']).mean(numeric_only=True).round(2)[year_month_cols].mean(axis=1).round(2).sort_values(ascending=False))

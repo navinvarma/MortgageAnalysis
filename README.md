@@ -15,6 +15,30 @@ This project uses Consumer Financial Protection Bureau (CPFB) data that is aggre
 * [*JupyterLab*](https://jupyter.org/install#jupyterlab) for analysis of data to discover trends for mortgages that are deliquent for metro and non-metro regions in the United States of America. 
 * Interactive [*StreamLit*](https://streamlit.io/) web application that can accept user input in the future.
 
+## Step-by-Step Installation
+
+### Open Terminal
+Open the Terminal app on your Mac.
+
+### Create a Virtual Environment (Recommended)
+This keeps dependencies organized.
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Install Streamlit
+Use pip to install the package.
+```bash
+pip install streamlit
+```
+
+### Verify Installation
+Run the following command to test the installation.
+```bash
+streamlit hello
+```
+
 ## How To
 ### /mortgage_analysis.py
 This file contains the functions to read the CSV data and return dataframes grouped by various columns.
