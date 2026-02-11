@@ -61,4 +61,4 @@ streamlit run mortgage_analysis_webapp.py
 
 ## Screenshot
 
-![Average percentage delinquent from 2008-2021](demo_avgdeliquency.png)
+![Average percentage delinquent from 2008-2021](demo_streamlit_mortgage.png)
